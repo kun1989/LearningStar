@@ -1,0 +1,13 @@
+布局
+    决定控件以什么形式排布
+线性布局
+    LinearLayout是线性布局控件，它包含的自控件将以横向和竖向的方式排布
+    android:orientation="vertical"//vertical  竖向，垂直  horizontal 横向,水平
+    android:gravity="bottom|right" 决定其子类控件的xy的位置
+            center_vertical     垂直(Y轴)居中
+            center_horizontal   水平(X轴)居中
+            center              水平垂直(X轴Y轴)都居中
+            right               子类控件位于当前控件的右边
+            left                子类控件位于当前控件的左边
+            bottom              子类控件位于当前控件的下面
+            可以多个同时使用用"|"链接
