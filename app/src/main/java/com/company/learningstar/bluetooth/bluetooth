@@ -1,0 +1,20 @@
+1.Bluetooth 无线通讯协议
+2.短距离设备通讯（10M）
+3.耳机，鼠标等移动设备
+4.BluetoothAdapter  该类的对象代表了本地的蓝牙适配器
+5.BluetoothDevice   代表一个远程的蓝牙设备
+6.权限声明 <uses-permission android:name="android.permission.BLUETOOTH"/>
+7.配对？？？？只能手到配对
+8.功能
+    8.1 扫描已配对的蓝牙设备
+    第一步，权限声明 <uses-permission android:name="android.permission.BLUETOOTH"/>
+    第二步，获得BluetoothAdapter对象
+    第三步，判断当前设备是否拥有蓝牙设备
+    第四步，判断是否打开，可用
+    第五部，得到所有已配对的蓝牙设备对象
+    注意，哪怕蓝牙没有打开，也可以获取到已配对的蓝牙设备，只是不可以链接，已储存手机
+    8.2 修改本机蓝牙设备的可见性
+     第一步，权限声明 <uses-permission android:name="android.permission.BLUETOOTH"/>
+                    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+     第二步，
+    8.3 扫描周围可用的蓝牙设备
